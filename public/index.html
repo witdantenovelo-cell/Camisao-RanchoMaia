@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animais Marinhos - Curiosidades do Fundo do Mar</title>
+  <link rel="stylesheet" href="style.css">
+    <!-- Bibliotecas -->
+  <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.8.0/dist/tf.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+
+  <!-- Script principal -->
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🐚 Animais Marinhos 🐠</h1>
+    <p>Descubra as maravilhas coloridas e misteriosas do fundo do mar!</p>
+  </header>
+
+  <main>
+    <section class="buttons">
+      <button id="abrirIA">🤖 IA de Reconhecimento</button>
+      <button id="btnAbrirChatbot">💬 Chat-bot</button>
+    </section>
+
+    <section class="curiosidades">
+      <div class="animal-card">
+        <img src="static/20251119_1403_Golfinho Realista_simple_compose_01kaeh3cepf6p9gn536rbb6dha.png" alt="Golfinho">
+        <h3>Golfinho</h3>
+        <p>Os golfinhos são mamíferos marinhos superinteligentes e comunicativos. Vivem em grupos e usam sons para se orientar.</p>
+      </div>
+
+      <div class="animal-card">
+        <img src="static/20251119_1405_Polvo Realista_simple_compose_01kaeh504jfn7t3h63zakext8d.png" alt="Polvo">
+        <h3>Polvo</h3>
+        <p>O polvo é um mestre da camuflagem! Ele muda de cor e textura para se esconder dos predadores no fundo do mar.</p>
+      </div>
+
+      <div class="animal-card">
+        <img src="static/20251119_1411_Tubarão Realista_simple_compose_01kaehgbz3fjjrhm03cd23j13v.png" alt="Tubarão">
+        <h3>Tubarão</h3>
+        <p>O tubarão é um caçador eficiente e essencial para o equilíbrio dos ecossistemas marinhos.</p>
+      </div>
+
+      <div class="animal-card">
+        <img src="static/20251119_1408_Tartaruga Marinha_simple_compose_01kaehcs7cft6vzp5vma6bb7ks (1).png" alt="Tartaruga Marinha">
+        <h3>Tartaruga Marinha</h3>
+        <p>Esses viajantes dos oceanos cruzam mares inteiros em busca de locais para desovar e se alimentar.</p>
+      </div>
+
+      <div class="animal-card">
+        <img src="static/20251119_1415_Água-Viva Realista_simple_compose_01kaehp97vev1tvc70xwm66s10 (1).png" alt="Água-viva">
+        <h3>Água-viva</h3>
+        <p>As águas-vivas são criaturas graciosas, com corpos translúcidos e movimentos suaves nas correntes oceânicas.</p>
+      </div>
+
+      <div class="animal-card">
+        <img src="static/20251112_1404_Cavalo-Marinho Realista_simple_compose_01k9wgazzjfp49df99qmt71vg9 (1).png" alt="Cavalo-marinho">
+        <h3>Cavalo-marinho</h3>
+        <p>Os cavalos-marinhos são únicos: o macho é quem carrega os filhotes em uma bolsa especial!</p>
+      </div>
+
+      <div class="animal-card">
+        <img src="static/20251119_1425_Caranguejo Realista_simple_compose_01kaejba48eesaz7jqztdf8h0h.png" alt="Caranguejo">
+        <h3>Caranguejo</h3>
+        <p>Os caranguejos vivem tanto na terra quanto no mar e têm uma carapaça rígida para se proteger de predadores.</p>
+      </div>
+
+      <div class="animal-card">
+        <img src="static/20251119_1427_Estrela do Mar_simple_compose_01kaejd0dhff4s0dvcmagdswbd.png" alt="Estrela-do-mar">
+        <h3>Estrela-do-mar</h3>
+        <p>Esses fascinantes invertebrados podem regenerar braços perdidos e vivem em diversas profundidades do oceano.</p>
+      </div>
+    </section>
+
+    <section class="preservacao">
+      <h2>🌍 Preservação dos Oceanos</h2>
+      <p>Os oceanos cobrem mais de 70% do nosso planeta e abrigam milhares de espécies. Cada pequena ação ajuda a proteger a vida marinha: evite plásticos descartáveis, recicle e apoie projetos de conservação.</p>
+      <img src="static/20251112_1410_Corais Coloridos Realistas_simple_compose_01k9wgpvewfmkr3ckvqkz0hcyg.png" alt="Corais coloridos">
+    </section>
+
+    <section class="galeria">
+      <h2>📸 Galeria Subaquática</h2>
+      <div class="fotos">
+        <img src="static/20251112_1412_Coral Realista_simple_compose_01k9wgshsaex1av0tee2kwafdm.png" alt="Coral">
+        <img src="static/20251112_1414_Peixes Coloridos Realistas_simple_compose_01k9wgx16zfh8shxm2qvxh1br7 (2).png" alt="Peixes coloridos">
+        <img src="static/20251126_1419_Baleia Realista_simple_compose_01kb0js6fze16tr085rm8x93j5.png" alt="Baleia">
+        <img src="static/20251126_1421_Foca Realista_simple_compose_01kb0jvxqdfn288k6gxy9wqvgh.png" alt="Foca">
+        <img src="static/20251126_1422_Fundo do Mar_simple_compose_01kb0jzxf0ees94nj02q4z3sj9.png" alt="Fundo do mar">
+        <img src="static/20251126_1425_Recife Realista_simple_compose_01kb0k4psnf5ns5ggwdyhygsd6.png" alt="Recife">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Animais Marinhos - Criado com 💙 pelas profundezas do oceano.</p>
+  </footer>
+
+    </section>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Robert"
+  agent-id="d396cafd-0d12-4f5a-bed2-ddbb355260d5"
+  language-code="pt-br"
+></df-messenger>
+
+  <!-- Modal da câmera (inicialmente escondido) -->
+  <div id="cameraModal" class="modal" aria-hidden="true" style="display:none;">
+    <div class="modal-content">
+      <button id="fecharModal" class="botao-fechar" title="Fechar">❌</button>
+      <h2 class="modal-title">Reconhecimento Facial</h2>
+      <div class="video-wrap">
+        <video id="video" autoplay muted playsinline></video>
+      </div>
+      <div class="controls">
+        <button id="tirarFoto" class="botao-foto" title="Tirar foto">📸</button>
+      </div>
+      <p id="modalStatus" class="modal-status">Aguardando...</p>
+      <canvas id="fotoCanvas" style="display:none;"></canvas>
+    </div>
+  </div>
+
+</body>
+</html>
